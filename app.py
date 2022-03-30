@@ -24,16 +24,6 @@ def beespage():  # put application's code here
     return render_template("bees_stat.html")
 
 @app.route('/')
-@app.route('/streampage')
-def beespage():  # put application's code here
-    return render_template("stream.html")
-
-@app.route('/')
-@app.route('/product_status')
-def productpage():  # put application's code here
-    return render_template("product_status.html")
-
-@app.route('/')
 @app.route('/product_status')
 def productpage():  # put application's code here
     return render_template("product_status.html")
@@ -43,14 +33,6 @@ def productpage():  # put application's code here
 @app.route('/documents')
 def documentpage():  # put application's code here
     return render_template("documents.html")
-
-
-@app.route('/')
-@app.route('/documents')
-def documentpage():  # put application's code here
-    return render_template("documents.html")
-
-
 
 @app.route('/')
 @app.route('/documents')
