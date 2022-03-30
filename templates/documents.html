@@ -1,0 +1,44 @@
+    
+  <!DOCTYPE html>
+	<head>
+    <style type="text/css">
+	<title>Vertical Menu bar</title>
+	#cssmenu {padding: 0; margin: 0; border: 0; line-height: 1;}
+    #cssmenu ul,
+    #cssmenu ul li{list-style: none; margin: 0; padding: 0;}
+
+    #cssmenu ul li.hover,
+    #cssmenu ul li:hover {position: relative; z-index: 599; cursor: default;}
+
+    #cssmenu {width: 200px; background: #100f0f; font-family:sans-serif; font-weight:bold;
+    zoom: 1; font-size: 12px;}
+    #cssmenu:before {content: ''; display: block;}
+
+    #cssmenu:after{content: ''; display: table; clear: both;}
+    #cssmenu a {display: block; padding: 15px 20px; color: #b36b01; text-decoration: none;
+    text-transform: uppercase; border-bottom: 1px solid #100f0f;}
+
+    #cssmenu > ul {width: 200px}
+    #cssmenu > ul > li > a {border-left: 4px solid #b36b01; color: #b36b01;}
+
+    #cssmenu > ul > li a:hover {background: #b36b01; color: #100f0f;}
+    </style>
+    <link rel="stylesheet" href="static/css/style.css">
+    </head>
+
+  <body>
+   <div id='cssmenu'>
+   <ul>
+   <li><a href='#'><span>Home</span></a></li>
+   <li><a href='#'><span>Action</span></a></li>
+   <li><a href='#'><span>Bee's statistics</span></a></li>     
+   <li><a href='#'><span>Stream</span></a></li>
+   <li><a href='#'><span>Product statuse</span></a></li>   
+   <li><a href="#"><span>Documents</span></a></li>
+   <li><a href="#"><span>About</span></a></li>     
+   <li><a href="#"><span>Log out</span></a></li>     
+   </ul>
+   </div>
+    
+  </body>
+  </html>
