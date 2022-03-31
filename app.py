@@ -12,6 +12,12 @@ def homepage():  # put application's code here
     return render_template("home.html")
 
 
+@app.route('/devpage')
+def devpage():  # put application's code here
+    return render_template("devpage.html")
+
+
+
 @app.route('/action')
 def actionpage():  # put application's code here
     return render_template("action.html")
