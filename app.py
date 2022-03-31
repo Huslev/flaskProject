@@ -37,6 +37,11 @@ def productpage():  # put application's code here
 def documentpage():  # put application's code here
     return render_template("documents.html")
 
+@app.route('/stream')
+def sstreamtpage():  # put application's code here
+    return render_template("stream.html")
+
+
 @app.route('/about')
 def abautpage():  # put application's code here
     return render_template("about.html")
