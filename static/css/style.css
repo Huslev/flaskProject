@@ -1,7 +1,12 @@
 .content{
-  flaot:left;
-  width: 360px;
-  background: #100f0f;
+    position: relative;
+    z-index: 1;
+    background: #100f0f;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
 }
 
 .login-page {
