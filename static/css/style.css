@@ -1,4 +1,8 @@
-
+.content{
+  flaot:left;
+  width: 360px;
+  background: #100f0f;
+}
 
 .login-page {
   width: 360px;
